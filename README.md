@@ -1,6 +1,6 @@
-## FastTravel
-# WARNING
-# ---------- 本文档仅基于李昶旭本人的理解 ----------
+# FastTravel
+<font color=red>WARNING</font>
+<font color=red>本文档仅基于李昶旭本人的理解</font>
 ### 概述
 
 ### 知识点补充
