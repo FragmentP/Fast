@@ -62,3 +62,12 @@ VALUES
 ![image](https://user-images.githubusercontent.com/68747583/150074307-53ed9cdd-6a50-46d7-a7bf-4a0f8b8c6230.png)
 
 在utils中包含了一些进行中间处理的插件和方法，本项目中使用的是将excel导出的插件，还可以加入例如MD5的加密插件，不用太关注utils文件夹下的内容
+
+6. mybatis
+
+![image](https://user-images.githubusercontent.com/68747583/150480168-8fd3f0ec-3194-427a-ba6c-7208543bb921.png)
+
+7. spring
+![image](https://user-images.githubusercontent.com/68747583/150480244-cd93aa77-f833-4ff2-83c0-42ee9199dab3.png)
+
+
