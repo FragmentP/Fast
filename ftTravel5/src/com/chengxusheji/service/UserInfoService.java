@@ -13,7 +13,7 @@ public class UserInfoService {
 	@Resource
     UserInfoMapper userInfoMapper;
     /*每页显示记录数目*/
-    private int rows = 10;;
+    private int rows = 10;
     public int getRows() {
 		return rows;
 	}
