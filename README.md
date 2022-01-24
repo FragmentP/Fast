@@ -71,7 +71,13 @@ mybatis的配置文件，在`.xml`文件中对mybatis进行相关配置
 
 7. spring
 
+![image](https://user-images.githubusercontent.com/68747583/150743817-206e4b14-5214-48a9-87cb-a7b66b69f835.png)
+
+
 8. 其他配置文件
+
+![image](https://user-images.githubusercontent.com/68747583/150743870-6ca5dd16-d064-4ed3-8652-9abf67c26b9a.png)
+
 
   
 
