@@ -21,6 +21,12 @@ ssm为Spring+SpringMVC+MyBatis
 
 ![image](https://user-images.githubusercontent.com/68747583/150074083-760adbe4-beda-463f-9bb2-8cf239d0eee4.png)
 
+用于与前端页面进行交互，接受用户发送来的url请求后，对数据进行相关处理，将解析后的试图返回给用户。
+
+url使用的是restful风格，例如：添加旅游景点信息的url为 `http://localhost/Tour/add` 
+
+在Controller层中，其通过调用service中的方法，对db进行查询等操作
+
 2. mapper
 
 ![image](https://user-images.githubusercontent.com/68747583/150074164-defacd05-6cff-4e70-a7b1-45e4d6ba79b4.png)
@@ -57,6 +63,8 @@ VALUES
 
 ![image](https://user-images.githubusercontent.com/68747583/150074276-6fec5403-376a-4e65-a5a4-e73fea659ccc.png)
 
+服务层，接收到controller的传参后，对数据进行处理，并将处理结果返回给controller
+
 5. utils
 
 ![image](https://user-images.githubusercontent.com/68747583/150074307-53ed9cdd-6a50-46d7-a7bf-4a0f8b8c6230.png)
@@ -73,11 +81,38 @@ mybatis的配置文件，在`.xml`文件中对mybatis进行相关配置
 
 ![image](https://user-images.githubusercontent.com/68747583/150743817-206e4b14-5214-48a9-87cb-a7b66b69f835.png)
 
+spring相关的配置文件
+
+* applicationContext-dao.xml
+
+  对数据库连接池进行配置，可以通过读取`jdbc.properties`中的内容对数据库连接池的driver、url、username、password等相关信息进行配置。
+
+  以及对扫包路径进行配置。
+
+* applicationContext-service.xml
+
+  对service层进行相关配置
+
+* applicationContext-transaction.xlm
+
+  对事务进行配置
+
+* springmvc.xml
+
+  对springmvc进行配置，对前端发出的请求进行配置
+
 
 8. 其他配置文件
 
 ![image](https://user-images.githubusercontent.com/68747583/150743870-6ca5dd16-d064-4ed3-8652-9abf67c26b9a.png)
 
+* jdbc.properties
 
-  
+  对数据库连接池中的参数进行配置
+
+* log4j.properties
+
+  对log4j进行配置
+
+
 
